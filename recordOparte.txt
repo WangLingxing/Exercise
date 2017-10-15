@@ -1,0 +1,4 @@
+3 Collatz.py Demo.py
+3 * 4
+12.0
+

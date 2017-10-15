@@ -1,0 +1,4 @@
+This is just a test message!
+Hello world!
+#zhushi
+message is abcd #this is message
