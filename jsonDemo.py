@@ -1,5 +1,6 @@
 # -*-coding:utf-8-*-
 import requests
+import json
 
 url = "http://www.kuaidi.com/index-ajaxselectcourierinfo-1202247993797-yunda.html"
 
@@ -9,7 +10,9 @@ s = requests.session()
 r = s.post(url, headers = headers, verify = False)
 
 result = r.json()
+jsonDumps = json.dumps(result, ensure_ascii=False,indent=2)
 print result
+print jsonDumps
 data = result["data"]
 
 print data
